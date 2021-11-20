@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnActivityTakeVideo = (Button) findViewById(R.id.btnActivityTakeVideo);
-        Button btnActivityShowVideo = (Button) findViewById(R.id.btnActivityShowVideo);
 
         btnActivityTakeVideo.setOnClickListener(new View.OnClickListener() {
             @Override
